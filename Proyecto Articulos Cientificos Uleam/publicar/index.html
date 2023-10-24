@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redactar Artículo Científico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <img src="imagenes/uleam.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../Home page/index.html">HOME</a></li>
+                <li><a href="../publicaciones/index.html">MIS PUBLICACIONES</a></li>
+                <li><a href="index.html">PUBLICAR</a></li>
+            </ul>
+        </nav>
+        <img src="imagenes/menu.png" class="menu-icon">
+    </div>
+    <form id="miFormulario" class="article-form">
+        <div class="article-container">
+            <div class="article-title">
+                <input type="text" placeholder="Título del Artículo" id="titulo" name="titulo" >
+            </div>
+            <div class="article-body">
+                <textarea id="miTextarea" ></textarea>
+            </div>
+            <div class="boton">
+                <button type="submit" class="button">Publicar</button>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63);
+
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(imagenes/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    background-color: rgba(64, 64, 64, 0.929);
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 200px;
+    cursor:pointer;
+    backdrop-filter: blur(30px); /* Ajusta el valor para controlar el nivel de desenfoque */
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.menu-icon{
+    width: 30px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.publicaciones{
+    padding-top: 20px;
+}
+.card {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(40, 52, 103);
+    box-shadow: 0 2px 9px rgba(white 0.9);
+    box-sizing: border-box;
+    cursor:pointer;
+    border-radius: 7px;
+    color: white;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px white;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}

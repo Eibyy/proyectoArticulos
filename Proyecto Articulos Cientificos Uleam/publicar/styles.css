@@ -1,0 +1,131 @@
+/* Estilos generales */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background: linear-gradient(to right, #191654, #43c6ac);
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(imagenes/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Estilos del contenedor principal */
+.article-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 10px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+
+}
+
+
+/* Estilos del campo de título */
+.article-title input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilos del campo de cuerpo del artículo */
+.article-body textarea {
+    width: 100%;
+    min-height: 680px;
+
+}
+
+
+.navbar{
+    height:12%;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    background-color: rgba(64, 64, 64, 0.929);
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 200px;
+    cursor:pointer;
+    backdrop-filter: blur(30px); /* Ajusta el valor para controlar el nivel de desenfoque */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px ;
+}
+
+
+
+.article-title input{
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px black solid;
+}
+.article-title,
+.article-body{
+    padding: 5px 20px;
+}
+
+.button{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.article-container button{
+    background-color: #3652f4;
+    color: white;
+    padding:1rem 1rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background .5s;
+    border-color: black;
+    border-style: none;
+    border: 10px;
+}
+.article-container button:hover {
+    background: #2538a8;
+
+    cursor: pointer;
+    transform: scale(1.06);
+}

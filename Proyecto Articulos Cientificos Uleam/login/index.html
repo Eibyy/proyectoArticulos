@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="https://iconos8.es/icon/37619/oficina-365">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-card-container">
+        <div class="login-card">
+            <div class="login-card-logo">
+                <img src="uleam.png" alt="logo">
+            </div>
+            <div class="login-card-header">
+                <h1>Artículos Científicos Uleam</h1>
+
+            </div>
+                <form class="login-card-form" action="../Home page/index.html" method="post">
+                    <div class="form-item">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="text" placeholder="Ingresa tu usuario" id="usuario"  autofocus>
+                    </div>
+                    <div class="form-item">
+                        <span class="form-item-icon material-symbols-outlined">lock</span>
+                        <input type="password" placeholder="Ingresa tu Contraseña"  id="contrasenia">
+                    </div>
+                    <div class="form-item-other">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rememberMeCheckbox">
+                            <label for="rememberMeCheckbox">Acuerdate de mi</label>
+                        </div>
+                        <a href="#">Olvidé mi contraseña</a>
+                    </div>
+                    <button type="submit">Acceder</button>
+                </form>
+                <div class="login-card-footer">
+                    No tienes una cuenta? <a href="#">Registrate Aqui</a>
+                </div>
+           
+            <div class="login-card-social">
+                <div>Inicia sesión con el correo Institucional</div>
+                <div class="login-card-social-btn">
+                    <a href="https://login.microsoftonline.com/uleam.onmicrosoft.com/oauth2/authorize?response_type=code&client_id=2ad44653-fa35-4d81-b320-96befa1b5088&scope=openid%20profile%20email&nonce=N652c9e935287b&response_mode=form_post&state=kjGCitxnCSmwgtJ&redirect_uri=https%3A%2F%2Faulavirtualmoodle.uleam.edu.ec%2Fauth%2Foidc%2F&resource=https%3A%2F%2Fgraph.microsoft.com"><img src="office.png" alt="">Office 365 Uleam</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
